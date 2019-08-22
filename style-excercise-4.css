@@ -1,0 +1,36 @@
+/* 040401 */
+
+/* .wrap{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+} */
+
+/* #040402 */
+
+/* .wrap{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+} */
+
+
+/* #040403 */
+
+/* .wrap{
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+} */
+
+/* 040404 */
+
+/* .wrap{
+	display: grid;
+	grid-template-columns: 1fr 6fr 3fr;
+} */
+
+/* 040405 */
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 20px;
+}

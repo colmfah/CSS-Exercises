@@ -1,0 +1,11 @@
+.wrap{
+	display: grid;
+	grid-template-columns: 7fr 6fr 5fr 4fr 3fr 2fr 1fr;
+	grid-column-gap: 1.5%;
+}
+
+.product{
+	background-color: #000080;
+	color: white;
+	height: 100vh;
+}

@@ -1,0 +1,49 @@
+html, body {
+	margin: 0;
+}
+
+
+.wrap {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	height: 100vh;
+}
+
+.navbar {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 8fr;
+	background-color: 	#ffffe0;
+	width: 100vw;
+	height: 5vh;
+
+
+}
+
+.link, .search {
+	border-style: solid;
+	border-width: 5px;
+	border-color: green;
+}
+
+.box1 {
+	background-color: red;
+	height: 100vh;
+}
+
+.box2 {
+	background-color: black;
+	height: 100vh;
+}
+
+.product {
+	background-color: white;
+	height: 20vh;
+}
+
+.productwrap {
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr ;
+	grid-column-gap: 1.5%;
+	grid-row-gap: 3.5%;
+}
