@@ -1,0 +1,76 @@
+/* #040501
+Set the style of a div to have a background image beach.png, prevent the image from repeating itself. */
+
+/* div {
+	background-image: url('peach.png');
+	background-repeat: no-repeat;
+} */
+
+
+/* #040502
+Using the provided tropical.jpg image inside the /images folder, achieve the below: */
+
+/* body{
+background-image: url('tropical.jpg');
+background-size: 180px;
+} */
+
+/* #040503
+Set the background of a div to be red with a 50% opacity; */
+
+
+/* div{
+	height: 400px;
+	width: 400px;
+	background-color: rgba(255,0,0,0.5);
+} */
+
+
+html, body{
+	margin: 0
+}
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	position: relative;
+}
+
+.box1{
+	background-image: url('forest.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 400px;
+	width: 400px;
+	background-color: red;
+	position: absolute;
+	top: 319px;
+
+
+}
+
+.box2{
+	background-image: url('forest.jpg');
+	background-size: auto 100%;
+	background-position: center;
+	height:719px;
+	width:150px;
+	background-color: green;
+	right: 800px;
+	position: absolute;
+	/* left: calc(50% - 100px) */
+}
+
+.box3{
+	background-image: url('forest.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	/* i don't understand why this isn't the other way around. I am telling it that the height should be 100% of the filesize and the width should automatically adjust acoordingly. Why doesn't this give me the full picture in the div where the picture is very small to fit the 100% height criteria I set */
+	background-position: center;
+	height:150px;
+	width:719px;
+	background-color: blue;
+	position: absolute;
+	top: 569px;
+	right: 0px;
+}
