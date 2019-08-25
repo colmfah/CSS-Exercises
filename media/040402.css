@@ -1,0 +1,38 @@
+
+
+
+.logo{
+	border: 1px solid grey;
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	padding: 15px;
+	line-height: 120px;
+	text-align: center;
+	font-size: 30px;
+	top: 30px;
+}
+
+@media (min-width: 501px) and (max-width: 900px) {
+  .logo {
+    border-radius: 0;
+		background-color: black;
+		color: white;
+		padding: 0px;
+		height: 45px;
+		width: 90px;
+		line-height: 1.5;
+  }
+}
+
+@media (max-width: 500px) {
+  .logo {
+    border-radius: 0;
+		background-color: white;
+		color: black;
+		padding: 0px;
+		height: 45px;
+		width: 90px;
+		line-height: 1.5;
+  }
+}
