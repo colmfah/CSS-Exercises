@@ -1,0 +1,25 @@
+.wrap {
+	background-color: #277ecf;
+	height: 45px;
+	width: 100px;
+	color: white;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: auto;
+	position: relative;
+}
+
+.text{
+	position: absolute;
+	top: 11px;
+	left: 16px;
+
+}
+
+
+i {
+	position: absolute;
+	top: 13px;
+	right: 19px;
+	font-size: 17px;
+}
